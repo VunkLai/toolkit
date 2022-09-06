@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Warning: Your dependencies could not be resolved.
+# You likely have a mismatch in your sub-dependencies.
+
+# https://github.com/psf/black/issues/209
+
+pipenv lock --pre --clear
